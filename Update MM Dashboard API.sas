@@ -3,8 +3,8 @@
 %let server= sseviya.demo.sas.com;
 %let authUri=/SASLogon/oauth/token;
 %let casSession =/cas/sessions;
-%let user= canyzn;
-%let password= Messier49*****; /*this env doesn't have userID, how to log in using API?*/;
+%let user= usename;
+%let password= password*; /*this env doesn't have userID, how to log in using API?*/;
 %let Basic= c2FzLmVjOg==;
 %let port = 80;
 /* options mlogic mprint symbolgen; */

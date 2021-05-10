@@ -1,9 +1,6 @@
 /***************************DELETING NON-Q CHARGES IN Q FILES***************************************/
 data have;
-set COVID.charges_q2;
-/* drop 'Case COC'n 'Resolve Days'n 'First Trial_Set to Schedule'n 'First Prelim_Set to Schedule'n  */
-/* 'First Trial_Latest Trial'n 'Accused Count'n 'Charge Count'n TotalWarrantTime */
-/* CaseFile_Month CaseFile_Year trial_flag log_ResolveDays; */
+set mylib.charges_q2;
 run;
 
 /*Macro to remove sepcial character '-'*/

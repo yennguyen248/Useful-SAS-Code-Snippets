@@ -1,7 +1,7 @@
 cas mysession;
 caslib _all_ assign;
 
-libname data '/global/home/ivy_ynguyen/ivey-hack-share/data_final';
+libname data '/where/your/data/folder/stays/on/server/';
 
 ods output Members=Members;
 proc datasets library=data memtype=data;

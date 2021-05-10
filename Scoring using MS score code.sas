@@ -39,7 +39,7 @@ run;
 proc astore;
 score data=_inlib.&inscore out=_outlib.&outscore
 rstore=_mstore.&scorecode
-epcode="/enable01-export/enable01-aks/homes/Yen.Nguyen@sas.com/OTHERS/dmcas_epscorecode.sas";
+epcode="/location/on/server/to/put/score/file/dmcas_epscorecode.sas";
 run;
 
 /*Double check the contents*/

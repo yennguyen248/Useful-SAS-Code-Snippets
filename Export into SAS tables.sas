@@ -2,7 +2,7 @@ cas mysession;
 caslib _all_ assign;
 
 %let mycas=CASUSER;
-libname outlib "/enable01-export/enable01-aks/homes/Yen.Nguyen@sas.com/COVID_CANADA";
+libname outlib "/location/on/server/to/export/to/";
 
 
 /*Learning: no need to go through WORK to do this*/
